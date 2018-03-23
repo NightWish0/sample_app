@@ -29,6 +29,7 @@ gem 'jquery-rails', '4.3.1'
 gem 'bootstrap-will_paginate'
 gem 'bootstrap-sass', '~> 3.3.7'
 gem 'sass-rails', '~> 5.0.6'
+gem 'bcrypt', '3.1.11'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'

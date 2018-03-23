@@ -1,7 +1,7 @@
 development:
   adapter: mysql2
   enconding: utf-8
-  database: toy_app_development
+  database: simple_app_development
   username: root
   password: root
   pool: 5
@@ -11,7 +11,7 @@ development:
 test:
   adapter: mysql2
   enconding: utf-8
-  database: toy_app_development
+  database: simple_app_development
   username: root
   password: root
   pool: 5
@@ -21,7 +21,7 @@ test:
 production:
   adapter: mysql2
   enconding: utf-8
-  database: toy_app_development
+  database: simple_app_development
   username: root
   password: root
   pool: 5
