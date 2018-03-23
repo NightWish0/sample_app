@@ -26,6 +26,9 @@ gem 'turbolinks', '~> 5.0.1'
 gem 'jbuilder', '~> 2.7.0'
 
 gem 'jquery-rails', '4.3.1'
+gem 'bootstrap-will_paginate'
+gem 'bootstrap-sass', '~> 3.3.7'
+gem 'sass-rails', '~> 5.0.6'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
@@ -44,6 +47,7 @@ group :development, :test do
   gem 'minitest'
   gem 'minitest-reporters'
   gem 'guard'
+  gem 'rails-controller-testing'
   # Use sqlite3 as the database for Active Record
   # gem 'sqlite3','1.3.13'
 end
